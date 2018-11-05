@@ -5,12 +5,8 @@ import { View, Image, Dimensions } from 'react-native';
 import { DrawerNavigator, DrawerItems } from 'react-navigation';
 
 import Components from './src/drawer/components';
-import Ratings from './src/drawer/ratings';
-import Pricing from './src/drawer/pricing';
 import Login from './src/drawer/login';
-import Profile from './src/drawer/profile';
 import Lists from './src/drawer/lists';
-import Settings from './src/drawer/settings';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
@@ -36,10 +32,6 @@ const MainRoot = DrawerNavigator(
       path: '/login',
       screen: Login,
     },
-    Profile: {
-      path: '/profile',
-      screen: Profile,
-    },
     Lists: {
       path: '/lists',
       screen: Lists,
@@ -47,18 +39,6 @@ const MainRoot = DrawerNavigator(
     Components: {
       path: '/components',
       screen: Components,
-    },
-    Ratings: {
-      path: '/ratings',
-      screen: Ratings,
-    },
-    Pricing: {
-      path: '/pricing',
-      screen: Pricing,
-    },
-    Settings: {
-      path: '/settings',
-      screen: Settings,
     },
   },
   {

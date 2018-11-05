@@ -1,8 +1,8 @@
 {
-  "name": "react-native-elements-app",
+  "name": "react-native-demo-nits",
   "version": "1.0.0",
   "description": "Demo app for React Native Elements UI Library",
-  "author": "Monte Thakkar",
+  "author": "Jarvis Dey",
   "private": true,
   "main": "main.js",
   "dependencies": {
